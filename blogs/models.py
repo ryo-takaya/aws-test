@@ -21,5 +21,8 @@ class Post(models.Model):
         @link: https://docs.djangoproject.com/ja/2.0/ref/class-based-views/generic-editing/
         :return:
         """
-        # return reverse('blogs:detail', kwargs={'pk': self.pk})
+        
         return reverse('blogs:index')
+
+
+

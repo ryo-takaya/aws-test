@@ -1,9 +1,6 @@
 from django.urls import path
 from . import views
- 
 
-app_name = 'blogs'
- 
 urlpatterns = [
     # 一覧表示のURL: /
     path('', views.IndexView.as_view(), name='index'),  # url is /
