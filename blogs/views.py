@@ -6,11 +6,11 @@ from django.views import generic
 from .models import Post
  
  
-class IndexView(generic.ListView): #  generic.ListViewを継承
-    model = Post # 使用するモデル
-    paginate_by = 5 # 1ページあたりの表示件数をカスタマイズ（学習のため）
-    ordering = ['-updated_at'] # 並び順を更新時刻が新しい順にカスタマイズ（学習のため）
-    template_name = 'blogs/index.html' # 表示に使用するテンプレート（この後すぐ作成）
+class IndexView(generic.ListView): 
+    model = Post 
+    paginate_by = 5 
+    ordering = ['-updated_at'] 
+    template_name = 'blogs/index.html' 
  
  
 class DetailView(generic.DetailView):

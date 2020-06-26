@@ -1,5 +1,5 @@
 {% extends 'blogs/base.html' %} {% block content %}
-<h1>Edit post</h1>
+<h1 class="title">Edit post</h1>
 <section class="post-form">
   <form action="" method="post">
     {% csrf_token %} {{ form.as_p }}

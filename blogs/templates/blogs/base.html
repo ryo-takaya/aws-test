@@ -16,10 +16,12 @@
       <header>
         <h1></h1>
         <nav>
-          <ul>
-            <li><a href="{% url 'blogs:index' %}">Home</a></li>
-            <li>
-              <a href="{% url 'blogs:create' %}" class="act">Add New Post</a>
+          <ul class="parent-container">
+            <li class='parent-item'>
+              <h2><a href="{% url 'blogs:index' %}">Home</a></h2>
+            </li>
+            <li class='parent-item'>
+              <h2 class="add "><a href="{% url 'blogs:create' %}" class="act">Add Post</a><h2/>
             </li>
           </ul>
         </nav>

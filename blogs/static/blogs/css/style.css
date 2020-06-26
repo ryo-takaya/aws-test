@@ -1,0 +1,50 @@
+ul {
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/shizen.jpg");
+  font-family: "arial unicode ms";
+  text-align: center;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parent-item {
+  padding: 15px;
+}
+
+.small {
+  font-size: 2rem;
+}
+
+.title {
+  font-family: "arial black";
+}
+
+.container {
+  background-color: rgba(233, 237, 221, 0.8);
+  word-wrap: break-word;
+  width: 500px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.post-text {
+  font-size: 1.5rem;
+}
+
+.margin-15 {
+  margin: 40px;
+}
